@@ -15,8 +15,8 @@ COPY docker/nanos-* /usr/local/bin/
 RUN chmod +x /usr/local/bin/*
 
 # Append periodic tasks to /etc/crontabs/root and remove temp directory
-COPY docker/avalon-cron /avalon/
-RUN egrep '^[^#]' /avalon/avalon-cron >> /etc/crontabs/root && \
+COPY docker/crontab.example /avalon/crontab
+RUN egrep '^[^#]' /avalon/crontab >> /etc/crontabs/root && \
     rm -rf /avalon
 
 # Start cron in the foreground to keep the container alive

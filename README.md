@@ -9,12 +9,12 @@ Using `avalon-nano-cli` you can get information and set all parameters of your m
 If you have Go installed on your machine and want to run the program locally, then it's just:
 
 ```
-$ go install github.com/prcolaco/avalon-nano-cli@latest
+$ go install github.com/homemining/avalon-nano-cli@latest
 ```
 
 ## Download
 
-Check the [releases](https://github.com/prcolaco/avalon-nano-cli/releases) page for binaries for your OS and architecture.
+Check the [releases](https://github.com/homemining/avalon-nano-cli/releases) page for binaries for your OS and architecture.
 
 ## Build
 
@@ -99,8 +99,11 @@ It's this easy... Have fun with your Avalon Nano 3! :)
 
 ### Wanna buy me a coffee?
 
-If this project made your day, you can buy me a coffee as a token of appreciation...
+If this project made your day, you can buy me a coffee as a token of appreciation:
 
-BTC Address: `bc1qv3s04m40vpskea9c7f9h3ph6jy2w5c7sv8j5yj`
+BTC:  `bc1qv3s04m40vpskea9c7f9h3ph6jy2w5c7sv8j5yj`
+ETH:  `0x17a36A783D89B49875e1030F802e7E4102D5847b`
+LTC:  `LZR7X3PQWTfbGB42dhq9hYBSqmMYEHLD9U`
+DOGE: `DD7RZivW2cafiqFyUpqHPqGzMtdxodCwaZ`
 
 Thank you!
